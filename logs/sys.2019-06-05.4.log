@@ -1,0 +1,12 @@
+2019-06-05 10:44:07,654 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2019-06-05 10:44:07,664 INFO (UserManager.java:86)- getUserInfo获取到的用户数量是0
+2019-06-05 11:15:13,320 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from user where userName=? and password=? 
+2019-06-05 11:15:13,357 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cy111(String), 123456(String)
+2019-06-05 11:15:13,365 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:15:13,366 INFO (UserManager.java:37)- 查看User(id=0, userName=cy111, password=123456, age=0, sex=0, permission=0, isDelete=0)
+2019-06-05 11:15:13,367 INFO (UserManager.java:40)- 查看到的结果是1
+2019-06-05 11:15:13,471 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from user where userName=? and password=? 
+2019-06-05 11:15:13,474 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cy222(String), 123455(String)
+2019-06-05 11:15:13,476 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:15:13,478 INFO (UserManager.java:37)- 查看User(id=0, userName=cy222, password=123455, age=0, sex=0, permission=0, isDelete=0)
+2019-06-05 11:15:13,478 INFO (UserManager.java:40)- 查看到的结果是0

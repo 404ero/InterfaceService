@@ -1,0 +1,16 @@
+2019-06-05 11:35:50,773 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from user where userName=? and password=? 
+2019-06-05 11:35:50,775 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cy111(String), 123456(String)
+2019-06-05 11:35:50,778 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:35:50,779 INFO (UserManager.java:37)- 查看User(id=0, userName=cy111, password=123456, age=0, sex=0, permission=0, isDelete=0)
+2019-06-05 11:35:50,780 INFO (UserManager.java:40)- 查看到的结果是1
+2019-06-05 11:35:50,874 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from user where userName=? and password=? 
+2019-06-05 11:35:50,875 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cy222(String), 123455(String)
+2019-06-05 11:35:50,877 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-06-05 11:35:50,879 INFO (UserManager.java:37)- 查看User(id=0, userName=cy222, password=123455, age=0, sex=0, permission=0, isDelete=0)
+2019-06-05 11:35:50,879 INFO (UserManager.java:40)- 查看到的结果是0
+2019-06-05 11:35:50,956 INFO (UserManager.java:50)- 添加用户:
+2019-06-05 11:35:50,957 INFO (UserManager.java:65)- 添加用户:[Ljavax.servlet.http.Cookie;@7f54749c
+2019-06-05 11:35:50,957 INFO (UserManager.java:73)- cookies验证通过
+2019-06-05 11:35:50,958 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into user (userName,password,sex,age,permission,isDelete) values (?,?,?,?,?,?); 
+2019-06-05 11:35:50,959 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: cy888(String), 123456(String), 1(Integer), 30(Integer), 0(Integer), 0(Integer)
+2019-06-05 11:35:50,995 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1

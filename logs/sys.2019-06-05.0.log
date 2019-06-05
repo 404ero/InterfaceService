@@ -1,0 +1,8 @@
+2019-06-05 10:22:44,896 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-GB0I9V6 with PID 20100 (started by Administrator in D:\IntelliJ IDEA 2018.3.6\InterfaceService)
+2019-06-05 10:22:44,925 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2019-06-05 10:22:44,925 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-06-05 10:23:33,192 INFO (StartupInfoLogger.java:48)- Starting Application on DESKTOP-GB0I9V6 with PID 18700 (started by Administrator in D:\IntelliJ IDEA 2018.3.6\InterfaceService)
+2019-06-05 10:23:33,195 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.3.RELEASE, Spring v4.3.8.RELEASE
+2019-06-05 10:23:33,196 INFO (SpringApplication.java:637)- No active profile set, falling back to default profiles: default
+2019-06-05 10:23:36,935 INFO (StartupInfoLogger.java:57)- Started Application in 4.332 seconds (JVM running for 6.068)
+2019-06-05 10:43:55,908 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select count(*) from user where userName=? and password=? 

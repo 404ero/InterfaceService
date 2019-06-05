@@ -1,0 +1,12 @@
+2019-06-05 11:15:16,977 INFO (UserManager.java:86)- getUserInfo获取到的用户数量是1
+2019-06-05 11:15:20,038 INFO (UserManager.java:65)- 添加用户:[Ljavax.servlet.http.Cookie;@5978d768
+2019-06-05 11:15:20,039 INFO (UserManager.java:73)- cookies验证通过
+2019-06-05 11:15:20,043 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update user SET userName=?, sex=?, age=?, permission=? where id = ? 
+2019-06-05 11:15:20,044 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: hahaha(String), 1(Integer), 22(Integer), 2(Integer), 201930(Integer)
+2019-06-05 11:15:20,126 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2019-06-05 11:15:20,127 INFO (UserManager.java:102)- 更新数据的条目数为:1
+2019-06-05 11:15:22,242 INFO (UserManager.java:65)- 添加用户:[Ljavax.servlet.http.Cookie;@e836348
+2019-06-05 11:15:22,244 INFO (UserManager.java:73)- cookies验证通过
+2019-06-05 11:15:22,245 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: update user SET userName=?, age=?, permission=?, isDelete=? where id = ? 
+2019-06-05 11:15:22,248 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 555555(String), 23(Integer), 3(Integer), 1(Integer), 201931(Integer)
+2019-06-05 11:15:22,276 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
